@@ -14,7 +14,7 @@ function( Snap ){
 
       var radius = Math.sqrt( area / Math.PI );
 
-      return this.circle( x, y, radius );
+      return this.circle( x, y, radius ).addClass( "fm-scatter-bubble" );
 
     };
 
